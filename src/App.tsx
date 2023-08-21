@@ -1,10 +1,13 @@
-import Home from "./pages/home/home.component";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+
+import Home from "./pages/home/home.component";
 import Users from "./pages/users/users.component";
 import Products from "./pages/products/products.component";
 import { Footer } from "./components/footer/footer.component";
 import { Navbar } from "./components/navbar/navbar.component";
 import { Menu } from "./components/menu/menu.component";
+
+import "./styles/global.scss";
 
 const App = () => {
   const Layout = () => {
