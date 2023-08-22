@@ -1,11 +1,13 @@
 import "./navbar.style.scss";
 
+import Logo from "../../assets/images/F.A.";
+
 export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="logo" />
-        <span>F.A. – Admin</span>
+        <Logo />
+        <span>Admin Dashboard</span>
       </div>
       <div className="icons">
         <img src="/search.svg" alt="search-icon" className="icon" />

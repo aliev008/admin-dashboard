@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .navbar {
   width: 100%;
   padding: 20px;
@@ -10,7 +12,14 @@
     align-items: center;
     font-weight: 700;
     gap: 10px;
+
+    svg {
+      path {
+        fill: $soft-color;
+      }
+    }
   }
+
   .icons {
     display: flex;
     align-items: center;
@@ -38,7 +47,7 @@
   .user {
     display: flex;
     align-items: center;
-    gap: 10px ;
+    gap: 10px;
 
     img {
       width: 26px;
