@@ -11,7 +11,7 @@ export const Navbar = () => {
         <img src="/search.svg" alt="search-icon" className="icon" />
         <img src="/app.svg" alt="app-icon" className="icon" />
         <img src="/expand.svg" alt="expand-icon" className="icon" />
-        <div className="notification">
+        <div className="notifications">
           <img src="/notifications.svg" alt="notifications-icon" />
           <span>1</span>
         </div>
