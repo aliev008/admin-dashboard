@@ -8,6 +8,8 @@ import { Navbar } from "./components/navbar/navbar.component";
 import { Menu } from "./components/menu/menu.component";
 
 import "./styles/global.scss";
+import User from "./pages/user/user.component";
+import Product from "./pages/product/product.component";
 
 const App = () => {
   const Layout = () => {
@@ -43,6 +45,14 @@ const App = () => {
         {
           path: "/products",
           element: <Products />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
         },
       ],
     },
