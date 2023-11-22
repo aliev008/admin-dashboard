@@ -21,10 +21,24 @@
         }
 
         .details {
+          font-size: 18px;
 
+          .item {
+            margin: 30px 0px;
+
+            .itemTitle {
+              font-weight: 600;
+              margin-right: 10px;
+              text-transform: capitalize;
+            }
+          }
         }
     }
     .chart {
+
+      margin-top: 50px;
+      width: 80%;
+      height: 400px;  
     }
   }
   .activities {
